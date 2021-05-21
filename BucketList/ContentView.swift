@@ -16,7 +16,7 @@ struct ContentView: View {
     var body: some View {
         ZStack {
             if isUnlocked {
-                MapContent()
+                MapContentView()
             } else {
                 Button("Unlock Places") {
                     self.authenticate()
